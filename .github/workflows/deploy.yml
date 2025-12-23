@@ -2,27 +2,27 @@ name: Deploy to Vercel
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-      
+          cache: true
+
       - name: Install Dependencies
         run: flutter pub get
 
-      - name: Clean Build
-        run: flutter clean
-
-      - name: Build Web
-        run: flutter build web --release --no-tree-shake-icons
+      - name: Build Web (Safe Mode)
+        run: flutter build web --release --web-renderer html --no-tree-shake-icons
 
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v20
