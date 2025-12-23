@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:firebase_core/firebase_core.dart';
+
 import 'core/di/injection_container.dart' as di;
 import 'core/theme/theme_cubit.dart';
 import 'features/auth/presentation/bloc/auth_bloc.dart';
