@@ -1,0 +1,17 @@
+{
+  "default": {
+    "primaryColor": "#1A1A1A",
+    "secondaryColor": "#FFFFFF",
+    "fontFamily": "Inter"
+  },
+  "church_grace": {
+    "primaryColor": "#2F80ED",
+    "secondaryColor": "#56CCF2",
+    "fontFamily": "Roboto"
+  },
+  "church_hope": {
+    "primaryColor": "#27AE60",
+    "secondaryColor": "#6FCF97",
+    "fontFamily": "Lato"
+  }
+}

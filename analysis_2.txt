@@ -1,0 +1,16 @@
+﻿Analyzing EcclesiaNext...                                       
+
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme\app_theme.dart:25:9 - deprecated_member_use
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\core\theme\theme_cubit.dart:1:8 - depend_on_referenced_packages
+   info - Don't invoke 'print' in production code - lib\core\theme\theme_cubit.dart:16:5 - avoid_print
+warning - Unused import: 'package:firebase_auth/firebase_auth.dart' - lib\features\auth\data\repositories\auth_repository_impl.dart:2:8 - unused_import
+   info - The imported package 'bloc' isn't a dependency of the importing package - lib\features\auth\presentation\bloc\auth_bloc.dart:1:8 - depend_on_referenced_packages
+warning - Unused import: 'package:dartz/dartz.dart' - lib\features\auth\presentation\bloc\auth_bloc.dart:2:8 - unused_import
+  error - A value of type 'List<Map<String, String?>>' can't be assigned to a parameter of type 'List<Map<String, String>>' in a const constructor - lib\features\home\presentation\pages\member_home_page.dart:69:35 - const_constructor_param_type_mismatch
+  error - The argument type 'List<Map<String, String?>>' can't be assigned to the parameter type 'List<Map<String, String>>'.  - lib\features\home\presentation\pages\member_home_page.dart:69:44 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\home\presentation\widgets\devotional_card.dart:23:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\home\presentation\widgets\devotional_card.dart:59:63 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\features\splash\presentation\pages\splash_page.dart:41:7 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\features\splash\presentation\pages\splash_page.dart:50:7 - avoid_print
+warning - Unused import: 'package:firebase_core/firebase_core.dart' - lib\main.dart:3:8 - unused_import
+
