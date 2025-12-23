@@ -18,7 +18,7 @@ import 'features/home/presentation/pages/my_disciples_page.dart';
 import 'features/home/presentation/pages/cell_management_page.dart';
 import 'features/sermons/presentation/pages/sermons_page.dart';
 import 'features/bible/presentation/pages/bible_plans_page.dart';
-import 'features/splash/presentation/pages/splash_page.dart';
+
 import 'features/home/presentation/cubit/content_cubit.dart';
 
 void main() async {
