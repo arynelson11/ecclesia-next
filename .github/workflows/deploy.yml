@@ -22,6 +22,7 @@ jobs:
         run: flutter pub get
 
       - name: Build Web (Safe Mode)
+        # Using --web-renderer html to avoid memory issues and --no-tree-shake-icons for dynamic icons
         run: flutter build web --release --web-renderer html --no-tree-shake-icons
 
       - name: Deploy to Vercel
